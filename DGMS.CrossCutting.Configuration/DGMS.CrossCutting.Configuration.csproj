@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	  <LangVersion>preview</LangVersion>
+  </PropertyGroup>
+	<ItemGroup>
+
+		<PackageReference Include="Automatonymous.Visualizer" Version="5.1.1" />
+
+		<PackageReference Include="MassTransit.RabbitMQ" Version="7.1.8" />
+
+		<PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="5.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+		<PackageReference Include="microsoft.extensions.logging.configuration" Version="5.0.0" />
+		<PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+		<PackageReference Include="Serilog.Sinks.Seq" Version="5.0.1" />
+		<PackageReference Include="Serilog.Extensions.Hosting" Version="4.1.2" />
+
+
+		<PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="7.1.8" />
+		<PackageReference Include="MassTransit.RabbitMQ" Version="7.1.8" />
+		
+		
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\DGMS.CrossCutting.Messages\DGMS.CrossCutting.Messages.csproj" />
+	</ItemGroup>
+
+</Project>

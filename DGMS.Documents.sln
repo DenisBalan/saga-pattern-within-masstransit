@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DGMS.CrossCutting.Configuration", "DGMS.CrossCutting.Configuration\DGMS.CrossCutting.Configuration.csproj", "{A6E1C47E-56F3-4C6F-8448-750FB0CDC4D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DGMS.CrossCutting.Messages", "DGMS.CrossCutting.Messages\DGMS.CrossCutting.Messages.csproj", "{A32447EB-AE9B-4475-AAC1-1D27A7A92C83}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DGMS.Dispatcher.Receiver", "DGMS.Dispatcher.Receiver\DGMS.Dispatcher.Receiver.csproj", "{A8AAA099-8642-4D3D-BB0E-619DB8220A71}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DGMS.Dispatcher.Client", "DGMS.Dispatcher.Client\DGMS.Dispatcher.Client.csproj", "{17894953-3DB4-464B-973B-413A5E3AAD13}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DGMS.Saga.Service.CreateMultipleDocuments", "DGMS.Saga.Service.CreateMultipleDocuments\DGMS.Saga.Service.CreateMultipleDocuments.csproj", "{7FB57433-9C3F-48B6-9BF3-45351134945A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DGMS.Saga.Service.CreateSingleDocument", "DGMS.Saga.Service.CreateSingleDocument\DGMS.Saga.Service.CreateSingleDocument.csproj", "{37A448C7-DAB4-4328-AF9F-2768FF83A74A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DGMS.Service.CollateData", "DGMS.Service.CollateData\DGMS.Service.CollateData.csproj", "{FD22B6EA-3E18-4232-AA8D-F6CC89415772}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DGMS.Service.ConvertToHtml", "DGMS.Service.ConvertToHtml\DGMS.Service.ConvertToHtml.csproj", "{DD945337-2499-4896-8888-EB6EFD7BD543}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DGMS.Service.HtmlToPdf", "DGMS.Service.HtmlToPdf\DGMS.Service.HtmlToPdf.csproj", "{A8B8B9BB-5211-48E1-87A6-03D3F17BD2BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DGMS.Service.UploadToStorage", "DGMS.Service.UploadToStorage\DGMS.Service.UploadToStorage.csproj", "{D1C0073F-6ED7-4737-905F-06B6E35B5B4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6E1C47E-56F3-4C6F-8448-750FB0CDC4D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6E1C47E-56F3-4C6F-8448-750FB0CDC4D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6E1C47E-56F3-4C6F-8448-750FB0CDC4D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6E1C47E-56F3-4C6F-8448-750FB0CDC4D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A32447EB-AE9B-4475-AAC1-1D27A7A92C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A32447EB-AE9B-4475-AAC1-1D27A7A92C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A32447EB-AE9B-4475-AAC1-1D27A7A92C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A32447EB-AE9B-4475-AAC1-1D27A7A92C83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8AAA099-8642-4D3D-BB0E-619DB8220A71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8AAA099-8642-4D3D-BB0E-619DB8220A71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8AAA099-8642-4D3D-BB0E-619DB8220A71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8AAA099-8642-4D3D-BB0E-619DB8220A71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17894953-3DB4-464B-973B-413A5E3AAD13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17894953-3DB4-464B-973B-413A5E3AAD13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17894953-3DB4-464B-973B-413A5E3AAD13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17894953-3DB4-464B-973B-413A5E3AAD13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FB57433-9C3F-48B6-9BF3-45351134945A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FB57433-9C3F-48B6-9BF3-45351134945A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FB57433-9C3F-48B6-9BF3-45351134945A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FB57433-9C3F-48B6-9BF3-45351134945A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37A448C7-DAB4-4328-AF9F-2768FF83A74A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37A448C7-DAB4-4328-AF9F-2768FF83A74A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37A448C7-DAB4-4328-AF9F-2768FF83A74A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37A448C7-DAB4-4328-AF9F-2768FF83A74A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD22B6EA-3E18-4232-AA8D-F6CC89415772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD22B6EA-3E18-4232-AA8D-F6CC89415772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD22B6EA-3E18-4232-AA8D-F6CC89415772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD22B6EA-3E18-4232-AA8D-F6CC89415772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD945337-2499-4896-8888-EB6EFD7BD543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD945337-2499-4896-8888-EB6EFD7BD543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD945337-2499-4896-8888-EB6EFD7BD543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD945337-2499-4896-8888-EB6EFD7BD543}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8B8B9BB-5211-48E1-87A6-03D3F17BD2BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8B8B9BB-5211-48E1-87A6-03D3F17BD2BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8B8B9BB-5211-48E1-87A6-03D3F17BD2BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8B8B9BB-5211-48E1-87A6-03D3F17BD2BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1C0073F-6ED7-4737-905F-06B6E35B5B4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1C0073F-6ED7-4737-905F-06B6E35B5B4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1C0073F-6ED7-4737-905F-06B6E35B5B4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1C0073F-6ED7-4737-905F-06B6E35B5B4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F8110B4-31F7-406D-A31A-09DB0A4D5243}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "DGMS.Saga.Service.CreateMultipleDocuments": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": "true"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

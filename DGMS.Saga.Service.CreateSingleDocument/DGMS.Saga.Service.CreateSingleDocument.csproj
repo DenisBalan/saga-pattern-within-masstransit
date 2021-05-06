@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<UserSecretsId>dotnet-DGMS.Saga.CreateMultipleDocuments-9281139C-5467-499A-81AD-600F05167A85</UserSecretsId>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+		<DockerfileContext>.</DockerfileContext>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MassTransit.MongoDb" Version="7.1.8" />
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="5.0.1" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="5.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\DGMS.CrossCutting.Configuration\DGMS.CrossCutting.Configuration.csproj" />
+		<ProjectReference Include="..\DGMS.CrossCutting.Messages\DGMS.CrossCutting.Messages.csproj" />
+		<ProjectReference Include="..\DGMS.Saga.CreateMultipleDocuments\DGMS.Saga.Service.CreateMultipleDocuments.csproj" />
+	</ItemGroup>
+</Project>
