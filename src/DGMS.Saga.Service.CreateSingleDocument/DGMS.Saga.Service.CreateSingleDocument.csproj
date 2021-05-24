@@ -17,6 +17,5 @@
 	<ItemGroup>
 		<ProjectReference Include="..\DGMS.CrossCutting.Configuration\DGMS.CrossCutting.Configuration.csproj" />
 		<ProjectReference Include="..\DGMS.CrossCutting.Messages\DGMS.CrossCutting.Messages.csproj" />
-		<ProjectReference Include="..\DGMS.Saga.CreateMultipleDocuments\DGMS.Saga.Service.CreateMultipleDocuments.csproj" />
 	</ItemGroup>
 </Project>
